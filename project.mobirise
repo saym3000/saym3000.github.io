@@ -35,13 +35,20 @@
     "versionFirst": "4.10.5",
     "siteFonts": [],
     "uniqCompNum": 1,
-    "versionPublish": "4.10.5"
+    "versionPublish": "4.10.5",
+    "favicon": "@PROJECT_PATH@/assets/images/logo-v2-128x128.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "siteUrl": "undefined",
+    "google-analytics": "",
+    "сanonical-url": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Inicio",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
