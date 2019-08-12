@@ -1,40 +1,38 @@
 {
   "settings": {
-    "name": "cucutaextrema",
+    "name": "CUCUTAEXTREMA",
     "currentPage": "index.html",
     "theme": {
-      "name": "mobirise-amp",
-      "title": "Mobirise AMP",
+      "name": "mobirise4",
+      "title": "Mobirise 4",
       "styling": {
-        "primaryColor": "#ff0000",
-        "secondaryColor": "#4addff",
-        "successColor": "#0dcd7b",
-        "infoColor": "#8282e7",
-        "warningColor": "#767676",
-        "dangerColor": "#a0a0a0",
-        "mainFont": "Roboto",
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
         "display1Font": "Metal Mania",
-        "display1Size": "5.8",
-        "display2Font": "Metal Mania",
-        "display2Size": 2.2,
-        "display5Font": "Rock Salt",
-        "display5Size": 1.8,
-        "display7Font": "Roboto",
-        "display7Size": "1.2",
-        "display4Font": "Roboto",
-        "display4Size": 0.9,
-        "isRoundedButtons": false,
-        "isScrollToTopButton": false,
-        "arrowColor": "#ff0000"
+        "display1Size": "5",
+        "display2Font": "Rock Salt",
+        "display2Size": "1.8",
+        "display5Font": "Rajdhani",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
-        "#ff0000",
-        "#ffa300",
-        "#280a0a"
+        "#21c901"
       ]
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.8.10",
+    "versionFirst": "4.10.5",
     "siteFonts": [
       {
         "css": "'Metal Mania', display",
@@ -45,360 +43,61 @@
         "css": "'Rock Salt', handwriting",
         "name": "Rock Salt",
         "url": "https://fonts.googleapis.com/css?family=Rock+Salt:400"
+      },
+      {
+        "css": "'Rajdhani', sans-serif",
+        "name": "Rajdhani",
+        "url": "https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700"
       }
     ],
-    "uniqCompNum": 24,
-    "versionPublish": "4.9.7",
-    "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/50299943-305112716807555-4303712596738965504-n-128x128.png",
+    "favicon": "@PROJECT_PATH@/assets/images/50299943-305112716807555-4303712596738965504-n-128x128-128x128.png",
     "noImageResize": "",
+    "siteUrl": "undefined",
     "google-analytics": "",
     "cookiesAlert": "",
     "gdpr": "",
-    "siteUrl": "undefined"
+    "uniqCompNum": 3,
+    "versionPublish": "4.10.5"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "CUCUTAEXTREMA.COM",
-        "meta_descr": "La nueva radio underground de la ciudad de Cúcuta - Colombia.\nSomos una emisora under con lo mejor de la música local.\n",
+        "title": "Home",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
       "components": [
         {
-          "_styles": {
-            "amp-sidebar": {
-              "min-width": "260px!important",
-              "z-index": "1050!important",
-              "background-color": "@menuBgColor"
-            },
-            "amp-sidebar.open:after": {
-              "content": "''",
-              "position": "absolute",
-              "top": "0",
-              "left": "0",
-              "bottom": "0",
-              "right": "0",
-              "background-color": "red"
-            },
-            ".open": {
-              "-webkit-transform": "translateX(0%) !important",
-              "transform": "translateX(0%) !important",
-              "display": "block!important"
-            },
-            ".builder-sidebar": {
-              "background-color": "@menuBgColor",
-              "position": "relative",
-              "min-height": "100vh",
-              "z-index": "1030",
-              "padding": "1rem 2rem",
-              "max-width": "20rem"
-            },
-            ".headerbar": {
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column",
-              "-webkit-justify-content": "center",
-              "justify-content": "center",
-              "padding": ".5rem 1rem",
-              "min-height": "70px",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "background": "@menuBgColor",
-              "&.sticky-nav": {
-                "position": "fixed",
-                "z-index": "1000",
-                "width": "100%"
-              }
-            },
-            "button.sticky-but": {
-              "position": "fixed"
-            },
-            ".brand": {
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "-webkit-align-self": "flex-start",
-              "align-self": "flex-start",
-              "padding-right": "30px",
-              "p": {
-                "margin": "0",
-                "padding": "0"
-              }
-            },
-            ".brand-name": {
-              "color": "#ff0000"
-            },
-            ".sidebar": {
-              "padding": "1rem 0",
-              "margin": "0"
-            },
-            ".sidebar > li": {
-              "list-style": "none",
-              "display": "flex",
-              "-webkit-flex-direction": "column",
-              "flex-direction": "column"
-            },
-            ".sidebar a": {
-              "display": "block",
-              "text-decoration": "none",
-              "margin-bottom": "10px"
-            },
-            ".close-sidebar": {
-              "width": "30px",
-              "height": "30px",
-              "position": "relative",
-              "cursor": "pointer",
-              "background-color": "transparent",
-              "border": "none",
-              "&:focus": {
-                "outline": "2px auto @primaryColor"
-              },
-              "span": {
-                "position": "absolute",
-                "left": "0",
-                "top": "14px",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "-webkit-transform": "rotate(45deg)",
-                  "transform": "rotate(45deg)"
-                },
-                "&:nth-child(2)": {
-                  "-webkit-transform": "rotate(-45deg)",
-                  "transform": "rotate(-45deg)"
-                }
-              }
-            },
-            "@media (min-width: 992px)": {
-              "& .brand-name": {
-                "min-width": "8rem"
-              },
-              "& .builder-sidebar": {
-                "margin-left": "auto",
-                ".sidebar li": {
-                  "-webkit-flex-direction": "row",
-                  "flex-direction": "row",
-                  "-webkit-flex-wrap": "wrap",
-                  "flex-wrap": "wrap",
-                  "a": {
-                    "padding": ".5rem",
-                    "margin": "0"
-                  }
-                }
-              },
-              "& .builder-overlay": {
-                "display": "none !important"
-              }
-            },
-            ".hamburger": {
-              "position": "absolute",
-              "top": "25px",
-              "right": "20px",
-              "margin-left": "auto",
-              "width": "30px",
-              "height": "20px",
-              "background": "none",
-              "border": "none",
-              "cursor": "pointer",
-              "z-index": "1000",
-              "& when (@showLogo)": {
-                "@media (min-width: 768px)": {
-                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
-                }
-              },
-              "&:focus": {
-                "outline": "none"
-              },
-              "span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "amp-img": {
-              "margin-right": "1rem",
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "height": "~\"@{logoHeight}px\"",
-              "width": "~\"@{logoWidth}px\"",
-              "@media (max-width: 768px)": {
-                "max-height": "55px",
-                "max-width": "55px"
-              }
-            }
-          },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global once=\"menu\" always-top position-absolute>\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Mostrar Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Altura Logo\" inline name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Ancho Logo\" inline name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Mostrar Marca\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Enlaces\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botón(es)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked>\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\">Izquierda</option>\n            <option value=\"right\" selected>Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Color de Fondo\" name=\"menuBgColor\" value=\"#000000\">\n        <input type=\"color\" title=\"Color Menú &quot;Hamburguesa&quot;\" name=\"hamburgerColor\" value=\"#ff0000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@THEME_PATH@/components/_images/logo1.png\" layout=\"responsive\" width=\"55.87765957446808\" height=\"55\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                  <div placeholder class=\"placeholder\"></div>\n                  <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/logo1.png\" alt=\"Mobirise\">\n              </amp-img>\n          </span>\n          <p mbr-text mbr-theme-style=\"display-2\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">CUCUTAEXTREMA.COM</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-primary\" href=\"index.html#info2-5\" data-app-placeholder=\"Type Text\">Donar<br></a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\">\n              <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.co\">Contacto</a>\n            </div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
-          "_cid": "rlTkYSJl2P",
-          "_anchor": "menu1-0",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
+          "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 15px)",
               "padding-bottom": "(@paddingBottom * 15px)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "color": "#ff0000"
-            },
-            ".mbr-section-title B": {
-              "color": "#ff0000"
-            }
-          },
-          "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Texto\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/fondo-adaptado-1000x564.jpg\" selected>\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>CÚCUTA EXTREMA</b><b><br></b></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">LA NUEVA RADIO UNDER<br><br>volvimos al aire gracias a la colaboración\n<div>de los integrantes de la emisora</div></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Intro de ancho completo con altura ajustable e imagen de fondo. Haga clic en cualquier texto para editarlo o darle un estilo.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n            <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">\n                LEER MÁS\n            </a>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "rlTlNzIcRS",
-          "_anchor": "header1-1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@flexDirection)": {
-              ".mbr-row": {
-                "-webkit-flex-direction": "row-reverse",
-                "flex-direction": "row-reverse"
-              }
-            },
-            ".btn-container": {
-              "display": "flex",
-              "-webkit-align-items": "center",
-              "align-items": "center",
-              "-webkit-justify-content": "center",
-              "justify-content": "center"
-            },
-            "@media (min-width: 768px)": {
-              ".mbr-section-subtitle": {
-                "margin-bottom": "0"
-              }
-            },
-            ".mbr-section-title": {
-              "color": "#ff0000"
-            },
-            ".mbr-section-subtitle DIV": {
-              "color": "#000000"
+            "H1": {
+              "color": "#21c901"
             }
           },
-          "_name": "info2",
-          "_customHTML": "<section class=\"info2\" group=\"Testimonials & Info\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Botón\" name=\"showButton\" checked>\n        <input type=\"checkbox\" title=\"Texto en la Izquierda/Derecha\" name=\"flexDirection\" condition=\"(showTitle || showSubtitle) && showButton\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#bbbbbb\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-8\" mbr-if=\"showTitle || showSubtitle\">\n                <h2 class=\"mbr-section-title align-right mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">volvimos gracias a las donaciones...</h2>\n                <h3 class=\"mbr-section-subtitle align-right mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">CUCUTA EXTREMA .COM es un proyecto independiente y retornó al aire gracias al\n<div>aporte de los integrantes de la emisora, tu también puedes colaborar para mantener \n</div><div>este espacio siempre al aire.&nbsp;</div></h3>\n            </div>\n            <div class=\"btn-container mbr-col-sm-12 mbr-col-md-6 mbr-col-lg-4\" mbr-if=\"showButton\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-black-outline\" href=\"https://paypal.me/aquilesvaesa\" data-app-placeholder=\"Type Text\" target=\"_blank\">DONAR</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rm522sWLrx",
-          "_anchor": "info2-5",
+          "_name": "header2",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/fondo-adaptado-1000x564.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    CUCUTA EXTREMA RADIO</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">LA NUEVA RADIO UNDER\n<br>volvimos al aire gracias a la colaboración\n<br>de los integrantes de la emisora&nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_cid": "ryT0FKTvuZ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header2-1"
         },
         {
-          "alias": "facebook-comments",
-          "_isSecondary": true,
-          "typeCompatible": "isAMP",
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".mbr-overlay": {
-                "background-color": "@overlayColor",
-                "opacity": "@overlayOpacity"
-              }
-            },
-            ".facebook-wrapper": {
-              "margin": "auto"
-            },
-            ".mbr-section-title": {
-              "color": "#232323"
-            }
-          },
-          "_name": "amp-facebook-comments",
-          "_customHTML": "<section class=\"amp-facebook-comments mbr-section\" group=\"Custom block\" plugins=\"amp-main, amp-facebook-comments\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n\n        <header>Facebook</header>\n        <input type=\"range\" inline title=\"Max Width\" name=\"maxWidth\" min=\"30\" max=\"100\" value=\"50\" step=\"1\">\n        <input type=\"range\" inline title=\"Number of Posts\" name=\"numpostsFacebook\" min=\"1\" max=\"10\" value=\"10\" step=\"1\">\n        <input type=\"text\" title=\"URL of This Page on Your Site\" name=\"linkPostFacebook\" value=\"https://www.facebook.com/cucutaextrema\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1299.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f6efe9\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' && overlay\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-center\">\n        <h3 class=\"mbr-fonts-style mbr-bold mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            DEJA TU OPINIÓN</h3>\n        <h4 class=\"mbr-fonts-stylembr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Tus comentarios son importantes aquí esta tu espacio de libre expresión:<br></h4>\n        <div class=\"facebook-wrapper mbr-col-lg-8\">\n            <amp-facebook-comments height=\"50\" layout=\"fixed-height\" class=\"container comments-container mobirise-loader\" data-numposts=\"{{numpostsFacebook}}\" data-href=\"{{linkPostFacebook}}\">\n                <div placeholder class=\"placeholder\"></div>\n            </amp-facebook-comments>\n        </div>\n    </div>\n\n</section>",
-          "_cid": "rmZVWB5sCu",
-          "_anchor": "amp-facebook-comments-h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-title": {
-              "padding-bottom": "1rem",
-              "color": "#ffa300"
-            },
-            ".mbr-section-btn": {
-              "padding-top": "1.5rem"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Mostrar Título\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Mostrar Subtítulo\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Mostrar Botones\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background2.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-title\">Mil gracias a todas las bandas que contribuyen con su música</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n            <i>Dale forma a tu futuro proyecto web con un diseño nítido y funciones codificadas depuradas.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEER MÁS</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">DEMO EN VIVO</a>\n        </div>\n    </div>\n</section>",
-          "_cid": "rm7OIQqdjH",
-          "_anchor": "content1-d",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -407,20 +106,16 @@
             },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
-            },
-            "p": {
-              "margin": "0",
-              "color": "#ffffff"
             }
           },
-          "_name": "footer1",
-          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Imagen de Fondo\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Color de Fondo\" value=\"#232323\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center mbr-white\">\n            <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-col-sm-12, .mbr-text\" data-app-placeholder=\"Type Text\">CUCUTAEXTREMA.COM<br>2019</p>\n        </div>\n    </div>\n</section>",
-          "_cid": "rlTvlJGHuO",
-          "_anchor": "footer1-3",
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">CUCUTAEXTREMA.COM<br>© Copyright 2019</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "ryT230GNeJ",
           "_protectedParams": [],
           "_global": true,
-          "_once": "footer",
-          "_params": {}
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-2"
         }
       ]
     }
