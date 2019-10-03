@@ -1,0 +1,85 @@
+.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {color: #3cb726;}
+.elementor-widget-heading .elementor-heading-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-image .widget-image-caption {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-text-editor {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {background-color: #3cb726;}
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .elementor-widget-text-editor.elementor-drop-cap-view-default .elementor-drop-cap {color: #3cb726;border-color: #3cb726;}
+.elementor-widget-button a.elementor-button, .elementor-widget-button .elementor-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;background-color: #e24f3f;}
+.elementor-widget-divider {--divider-border-color: #54595f;}
+.elementor-widget-divider .elementor-divider__text {color: #54595f;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-divider.elementor-view-stacked .elementor-icon {background-color: #54595f;}
+.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon {color: #54595f;border-color: #54595f;}
+.elementor-widget-divider.elementor-view-framed .elementor-icon, .elementor-widget-divider.elementor-view-default .elementor-icon svg {fill: #54595f;}
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-title {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-image-box .elementor-image-box-content .elementor-image-box-description {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-icon.elementor-view-stacked .elementor-icon {background-color: #3cb726;}
+.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon {color: #3cb726;border-color: #3cb726;}
+.elementor-widget-icon.elementor-view-framed .elementor-icon, .elementor-widget-icon.elementor-view-default .elementor-icon svg {fill: #3cb726;}
+.elementor-widget-icon-box.elementor-view-stacked .elementor-icon {background-color: #3cb726;}
+.elementor-widget-icon-box.elementor-view-framed .elementor-icon, .elementor-widget-icon-box.elementor-view-default .elementor-icon {fill: #3cb726;color: #3cb726;border-color: #3cb726;}
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-title {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-icon-box .elementor-icon-box-content .elementor-icon-box-description {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-star-rating .elementor-star-rating__title {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-image-carousel .elementor-image-carousel-caption {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-image-gallery .gallery-item .gallery-caption {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-icon-list .elementor-icon-list-item:not(:last-child):after {border-color: #7a7a7a;}
+.elementor-widget-icon-list .elementor-icon-list-icon i {color: #3cb726;}
+.elementor-widget-icon-list .elementor-icon-list-icon svg {fill: #3cb726;}
+.elementor-widget-icon-list .elementor-icon-list-text {color: #54595f;}
+.elementor-widget-icon-list .elementor-icon-list-item {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-counter .elementor-counter-number-wrapper {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-counter .elementor-counter-title {color: #54595f;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar {background-color: #3cb726;}
+.elementor-widget-progress .elementor-title {color: #3cb726;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-testimonial .elementor-testimonial-content {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-testimonial .elementor-testimonial-name {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-testimonial .elementor-testimonial-job {color: #54595f;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-tabs .elementor-tab-title {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-tabs .elementor-tab-title.elementor-active {color: #e24f3f;}
+.elementor-widget-tabs .elementor-tab-content {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title.elementor-active {color: #e24f3f;}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-content {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title {color: #3cb726;font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-title.elementor-active {color: #e24f3f;}
+.elementor-widget-toggle .elementor-toggle .elementor-tab-content {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-alert .elementor-alert-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-alert .elementor-alert-description {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-call-out .bdt-callout .bdt-callout-title {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-call-out .bdt-callout .bdt-callout-description {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-call-out .bdt-callout a.bdt-callout-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-contact-form .bdt-form-label {color: #7a7a7a;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-contact-form .bdt-field-group .bdt-input, .elementor-widget-bdt-contact-form .bdt-field-group textarea {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-contact-form .bdt-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-contact-form .bdt-contact-form-additional-message {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+body .cc-window * {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+body .cc-window .cc-btn.cc-dismiss {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-countdown .bdt-countdown-event-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-countdown .bdt-countdown-number {background-color: #e24f3f;font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-countdown .bdt-countdown-label {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-countdown .bdt-event-button {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-custom-gallery .bdt-gallery-item .bdt-gallery-item-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-custom-gallery .bdt-gallery-item .bdt-gallery-item-text {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-custom-gallery .bdt-custom-gallery .bdt-gallery-item-link {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-flip-box .bdt-flip-box-front .bdt-flip-box-layer-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-flip-box .bdt-flip-box-front .bdt-flip-box-layer-desc {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-flip-box .bdt-flip-box-back .bdt-flip-box-layer-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-flip-box .bdt-flip-box-back .bdt-flip-box-layer-desc {font-family: "Rock Salt",Sans-serif;font-weight: 400;}
+.elementor-widget-bdt-flip-box .bdt-flip-box-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-lightbox .elementor-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-member .bdt-member .bdt-member-name {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-member .bdt-member .bdt-member-role {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-member .bdt-member .bdt-member-text {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-link {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-title {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-panel-slider .bdt-panel-slide-item .bdt-panel-slide-text {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-progress-pie .bdt-progress-pie-wrapper .bdt-progress-pie-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-scroll-button .bdt-scroll-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-title {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-text {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-slider .bdt-slider .bdt-slide-item .bdt-slide-link {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-toggle .bdt-accordion .bdt-accordion-title {font-family: "Metal Mania",Sans-serif;font-weight: 600;}
+.elementor-widget-bdt-trailer-box .bdt-trailer-box .bdt-trailer-box-pre-title {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-trailer-box .bdt-trailer-box .bdt-trailer-box-title {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-trailer-box .bdt-trailer-box .bdt-trailer-box-text {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
+.elementor-widget-bdt-trailer-box a.bdt-trailer-box-button {font-family: "Rock Salt",Sans-serif;font-weight: 500;}
